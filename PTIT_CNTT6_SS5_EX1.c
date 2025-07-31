@@ -6,7 +6,11 @@ int max;
 scanf("%d %d",&a,&b);
      if(a>b){
     max=a;
-    }else{
+    }else if{
+          printf("So nay bang nhau");
+          return 0;
+    }
+     else{
       max=b;
     }
 printf("%d la so lon nhat",max);
